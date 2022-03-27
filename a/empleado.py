@@ -1,6 +1,6 @@
 class empleado:
-    def empleados(nombre, genero, edad, cargo):
-        pass
+    def __init__(self,nombreEmpleado):
+        self.nombreEmpleado = nombreEmpleado
 SrMartin = empleado()
 SrSalim = empleado()
 SraXing = empleado()
